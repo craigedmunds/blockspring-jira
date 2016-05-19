@@ -1,0 +1,58 @@
+{
+  "id": "jira-import",
+  "user": "craigedmunds",
+  "title": "JIRA Import",
+  "description": "",
+  "parameters": [
+    {
+      "label": "Protocol",
+      "name": "serverProtocol",
+      "type": "text",
+      "help_text": "",
+      "placeholder": "https",
+      "optional": false,
+      "default": "https"
+    },
+    {
+      "label": "Host",
+      "name": "serverHost",
+      "type": "text",
+      "help_text": "",
+      "placeholder": "jira.atlassian.net",
+      "optional": false,
+      "default": ""
+    },
+    {
+      "label": "Port",
+      "name": "serverPort",
+      "type": "text",
+      "help_text": "",
+      "placeholder": "443",
+      "optional": false,
+      "default": "443"
+    },
+    {
+      "label": "User",
+      "name": "userName",
+      "type": "text",
+      "help_text": "",
+      "placeholder": "",
+      "optional": false,
+      "default": ""
+    },
+    {
+      "label": "Password",
+      "name": "password",
+      "type": "text",
+      "help_text": "",
+      "placeholder": "",
+      "optional": false,
+      "default": ""
+    }
+  ],
+  "is_public": true,
+  "is_open_source": true,
+  "language": "js",
+  "updated_at": 1443132880,
+  "created_at": 1443131957
+}
